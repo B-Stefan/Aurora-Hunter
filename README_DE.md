@@ -40,7 +40,7 @@ Die Aurora Hunter App besteht aus folgenden Android Komponenten:
 * LocationService (Übertragung der aktuellen Position für den Schwellwert) 
 
 ###Canvas
-* PredictionGraphView (Zeit die Wahrscheinlichkeiten für Aurora mittels eines Cavas an)
+* PredictionGraphView (Zeigt die Wahrscheinlichkeiten für Aurora mittels eines Cavas an)
 * sunmooninfo  (Stellt klassen da, um die Himmelskörper und die entsprechenden Positionen dar zu stellen)
 
 ##Package-Struktur
