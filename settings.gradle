@@ -1,0 +1,5 @@
+include ':app',
+        ':notificationsGcmSenderTest',
+        ":app-commons",
+        ":app-commons:notifications-api",
+        ":app-commons:prediction-api"

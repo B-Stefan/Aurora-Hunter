@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.KpIndexChartFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="KP-Index"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hs_bremen.aurora_hunter.ui.views.KpIndexChartView
+            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:id="@+id/view_kp_index_chart"
+            android:name="de.hs_bremen.aurora_hunter.ui.activities.CubicDrawView"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:textAlignment="textStart"
+                android:text="10:00 "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:text="00:00 "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:textAlignment="textEnd"
+                android:text="10:00 "/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

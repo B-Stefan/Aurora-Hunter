@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.PredictionFragment"
+    tools:showIn="@layout/activity_prediction">
+
+    <de.hs_bremen.aurora_hunter.ui.views.MainScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll_prediction_main"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout_full_screen"
+                android:background="@drawable/background_night_24dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical" >
+
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/headerBarOffsetTotal"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white"
+                        android:text="26. Mai 2016"
+                        android:id="@+id/text_current_date"
+                        android:layout_marginBottom="5dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/layout_probability_conclusion">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="@android:color/white"
+                            android:text=""
+                            android:id="@+id/text_height"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginTop="0dp"
+                            android:gravity="bottom"
+                            android:layout_gravity="start|center"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_arrow_upward_white_48dp"
+                            android:layout_gravity="start|center"
+                            android:scaleType="fitStart"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="70sp"
+                            android:textColor="@android:color/white"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:text="Wait"
+                            android:id="@+id/text_city"
+                            />
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:text="Probability"
+
+                        />
+
+                </LinearLayout>
+
+
+
+                <HorizontalScrollView
+                    android:layout_gravity="bottom|center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.3"
+                    android:id="@+id/scroll_probability_chart"
+                    >
+
+
+                    <FrameLayout
+                        android:layout_width="1200dp"
+                        android:layout_height="wrap_content"
+                        android:name="de.hs_bremen.aurora_hunter.ui.fragments.ProbabilityChartFragment"
+                        android:id="@+id/frameLayout_probability_chart_container"
+                        tools:layout="@layout/fragment_probability_chart"
+                        />
+
+
+
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="de.hs_bremen.aurora_hunter.ui.fragments.KpIndexChartFragment"
+                    android:id="@+id/frameLayout_kp_chart_container"
+                    tools:layout="@layout/fragment_probability_chart"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </de.hs_bremen.aurora_hunter.ui.views.MainScrollView>
+
+
+</RelativeLayout>

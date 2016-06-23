@@ -1,0 +1,61 @@
+{
+  "project_info": {
+    "project_number": "202304996171",
+    "project_id": "aurora-hunter"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202304996171:android:40d3a543e1294ce1",
+        "android_client_info": {
+          "package_name": "de.hs_bremen.aurorahunter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzm-KUiN1IMnpRTPl4CyRgWREqPYE7Q60"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202304996171:android:a86887bfc3799008",
+        "android_client_info": {
+          "package_name": "de.hs_bremen.aurora_hunter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzm-KUiN1IMnpRTPl4CyRgWREqPYE7Q60"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

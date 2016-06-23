@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Aurora Hunter</string>
+
+    <string name="app_SENT_TOKEN_TO_SERVER">sentTokenToServer</string>
+    <string name="app_REGISTRATION_COMPLETE">registrationComplete</string>
+
+    <string name="activity.purchase.headline">Benachrichtungen</string>
+    <string name="activity.purchase.info">Benachrichtigen helfen dir selbst während du schläfst informiert über die Aurora-Chancen an deinem Ort zu bleiben. Du kannst ganz einfach eine Wahrscheinlichkeit angeben, ab der unsere Benachrichtigen-Architektur dich informieren soll. Wir ermitteln aus dem KI Index und der Wetterbedingungen an deinem Ort eine Wahrscheinlichkeit für dich.</string>
+    <string name="activity.purchase.action.buy">Kaufen</string>
+    <string name="activity.purchase.label.buySuccessfull">Benachrichtungen wurden für dich freigeschaltet.</string>
+
+    <string name="title_activity_aurora_notification">AuroraNotification</string>
+    <string name="error.NotificationThresholdException">Your threshold of  %1$f is not allowed. The threshold has to be between  %2$f and %3$f</string>
+    <string name="error.no_internet_connection">You have no internet connection, please check it. </string>
+    <string name="msg.ok">Ok</string>
+    <string name="msg.no_valid_city_selected">Please select or search for a city, I found no location to refresh</string>
+    <string name="msg.notification_description">
+        You can setup your notification level and we will inform you if the possibility is above your threshold value.
+
+        Please setup your new threshold value.
+    </string>
+    <string name="title_activity_prediction">PredictionActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="tabs.today">Today</string>
+    <string name="tabs.tomorrow">Tomorrow</string>
+    <string name="tabs.dayAfterTomorrow">Day after tomorrow</string>
+
+
+    <string name="prediction_height_message" formatted="false">%1$s at around %2$s</string>
+
+
+    <!-- Strings for SharedPreferences -->
+    <string name="preference_file_key">mainPref</string>
+    <string name="preference_notifications_purchased">notifications_purchased</string>
+
+    <string name="action_refresh">Refresh page </string>
+    <string name="search_default_hint">Search</string>
+    <string name="action_location">action location</string>
+    <string name="action_taxi">action taxi</string>
+    <string name="action_change_colors">change style</string>
+    <string name="color_info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
